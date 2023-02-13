@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+background-color: hsl(212, 45%, 89%);
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Outfit', sans-serif;
+}
+
+#Component{
+    align-self: center;
+background-color: white;
+border-radius: 10px;
+margin-top: 100px;
+width: 400px;
+height: 610px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#Component:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#Component img{
+   margin-top: 12px;
+    border-radius: 10px;
+    width: 360px;
+    height: 380px;
+}
+
+h1{
+    font-size: xx-large;
+    color: hsl(218, 44%, 22%);
+}
+h2{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.attribution{
+    position: absolute;
+   top:95%;
+
+}
+
